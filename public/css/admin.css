@@ -1,0 +1,41 @@
+.admincontent{
+    background-color: #ddd !important;
+    padding-bottom: 20px;
+}
+.adminLeft{
+    margin-top: 20px;
+    height:320px;
+    background: #fff;
+    padding: 20px 0px!important;
+}
+.adminLeft input{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+@media (max-width: 640px){
+    .adminRight{
+        visibility: hidden;
+    }
+    .adminLeft{
+        margin-top: 10px;
+        height:320px;
+        background: #fff;
+        padding: 10px 0px!important;
+    }
+    .adminLeft input{
+        margin-top: 5px;
+    }
+}
+
+.adminRight{
+    margin-top: 20px;
+    height:320px;
+    background-color: #EEEEEE !important;
+    padding-bottom: 20px;
+}
+.contentRtop{
+    padding: 20px;
+}
+.contentRtop button{
+    margin-right: 10px;
+}

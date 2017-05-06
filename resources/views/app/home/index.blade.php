@@ -1,5 +1,5 @@
 @extends('layouts.home')
-@section('title', ' day la trang chu')
+@section('title', 'Trang chủ')
 @section('content')
 
 @foreach($data as $item) <!--lấy ra name, thông tin , ngày tạo và active -->
@@ -15,4 +15,5 @@
 	 <hr/>
 </div>
 @endforeach
+	<div class="pull-right paginations">{!! $data->links() !!}</div>
 @endsection

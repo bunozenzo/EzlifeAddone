@@ -1,9 +1,6 @@
 <?php
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('home', function () {
-    return view('app.home.index');
-});
-Route::get('home','App\HomeController@index');
+Route::get('','App\HomeController@index');
 Route::get('info/{id}','App\HomeController@info')->name('home.info');
+Route::get('admin','Admin\AdminController@index')->name('admin');
+Route::post('admin/add','Admin\AdminController@getdata')->name('admin.add');
+Route::post('admin/error','Admin\AdminController@error')->name('admin.error');

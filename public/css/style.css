@@ -59,7 +59,7 @@ header{
 .headerRight{
 	padding: 7px 10px 10px !important;
 	background-color: #2d730a;
-	float: left: 
+	float: left;
 }
 .headerRight i{
 	visibility: hidden;
@@ -123,6 +123,29 @@ header{
 	color: #bbb;
 	margin-top: 20px;
 }
+.desc-info{
+	font-size: 15px;
+	color: #bbb;
+	margin-top: 20px;
+}
+.info-addons img{
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.link{
+	text-align: center;
+}
+.info-addons a{
+	display: block;
+	color: #2d730a;
+	font-size: 22px;
+	letter-spacing: -0.7px;
+	line-height: 1.4em;
+	padding-top:15px;
+}
+.info-addons a:hover{
+	color: #444;
+}
 .contentRight{
 	background-color: #EEEEEE !important;
 	padding-bottom: 20px;
@@ -132,6 +155,9 @@ header{
 }
 .contentRtop button{
 	margin-right: 10px;
+}
+.paginations{
+	margin-right: 20px!important;
 }
 footer{
 	padding: 35px;

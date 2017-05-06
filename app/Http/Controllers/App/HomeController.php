@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     //
     public function index(){
-    	$data = Data::all();
+    	$data = Data::simplePaginate(1);
     	return view('app.home.index', compact('data'));
     }
      public function info($id){

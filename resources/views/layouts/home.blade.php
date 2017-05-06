@@ -83,7 +83,7 @@
 		<footer class="container-fluid">
 			<div class="container">
 				<p>Copyright © 2014.</p>
-				<p>We are not affiliated with Mojang AB.</p>
+				<p>EzLife.</p>
 			</div>
 		</footer>
 	</div>
